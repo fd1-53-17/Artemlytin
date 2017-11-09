@@ -1,0 +1,48 @@
+.a {
+    border-top: 25px solid red;
+    border-bottom: 25px solid rgba(255,255,255,0);
+    border-right: 25px solid rgba(255,255,255,0);
+    border-left: 25px solid rgba(255,255,255,0);
+    width: 0;
+    height: 0;
+}
+.b {
+    border-top: 25px solid rgba(255,255,255,0);
+    border-bottom: 25px solid black;
+    border-right: 25px solid rgba(255,255,255,0);
+    border-left: 25px solid rgba(255,255,255,0);
+    width: 0;
+    height: 0;
+}
+.c {
+    border-top: 25px solid rgba(255,255,255,0);
+    border-bottom: 25px solid rgba(255,255,255,0);
+    border-right: 25px solid rgba(255,255,255,0);
+    border-left: 25px solid yellow;
+    width: 0;
+    height: 0;
+}
+.d {
+    border-top: 25px solid rgba(255,255,255,0);
+    border-bottom: 25px solid rgba(255,255,255,0);
+    border-right: 25px solid blue;
+    border-left: 25px solid rgba(255,255,255,0);
+    width: 0;
+    height: 0;
+}
+.e {
+    border-top: 25px solid rgba(255,255,255,0);
+    border-bottom: 25px solid blue;
+    border-right: 25px solid blue;
+    border-left: 25px solid rgba(255,255,255,0);
+    width: 0;
+    height: 0;
+}
+.f {
+    border-top: 25px solid red;
+    border-bottom: 25px solid red;
+    border-right: 25px solid red;
+    border-left: 25px solid red;
+    border-radius: 100px;
+    width: 0;
+}
