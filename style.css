@@ -39,9 +39,10 @@
     height: 0;
 }
 .f {
-    border-top: solid red 25px;
-    border-bottom: solid red 25px;
-    border-right: solid red 25px;
-    border-left: solid red 25px;
-    border-radius: 100px
+    border-top: 25px solid red;
+    border-bottom: 25px solid red;
+    border-right: 25px solid red;
+    border-left: 25px solid red;
+    border-radius: 100px;
+    width: 0;
 }
