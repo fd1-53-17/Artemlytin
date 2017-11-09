@@ -3,7 +3,6 @@
     border-left: 10px solid red;
     border-right: 10px solid red;
     border-bottom: 10px solid red;
-    border-radius: 0px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     width: 0;
@@ -11,7 +10,6 @@
 }
 .b {
     border: 10px solid red;
-    border-radius: 10px;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
     width: 0;
