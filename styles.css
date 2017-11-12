@@ -1,0 +1,103 @@
+.a {
+    position: absolute;
+    bottom: 400px;
+    margin-left: 73px;
+    background-image: linear-gradient(to bottom, #FFFF00,#FFFFE0,#FFFF00,#FF8C00);
+    width: 50vw;
+    height: 38px;
+    box-shadow: 3px 3px 3px grey;
+}
+.b {
+    position: absolute;
+    bottom: 400px;
+    margin-left: 40px;
+    background-image: linear-gradient(to bottom,#696969, #A9A9A9,#696969,#000000);
+    width: 8vw;
+    height: 38px;
+    box-shadow: 3px 3px 3px grey;
+}
+.c {
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    position: absolute;
+    bottom: 400px;
+    right: 317px;
+    width: 20px;
+    height: 38px;
+    background-image: linear-gradient(to bottom, pink, white,pink,#FF1493);
+    box-shadow: 3px 3px 3px grey;
+}
+.d {
+    margin-top: -445px;
+    margin-left: 267px;
+    border-bottom: 14px solid rgba(0,0,0,0);
+    border-left: 50px solid rgb(238, 232, 170);
+    border-top: 14px solid rgba(0,0,0,0);
+    width: 0px;
+    height: 10px;
+}
+.e {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -25px;
+    border-bottom: 6px solid rgba(0,0,0,0);
+    border-left: 35px solid black;
+    border-top: 6px solid rgba(0,0,0,0);
+}
+.z {
+    position: absolute;
+    bottom: -6px;
+    margin-left: 0px;
+    width: 38px;
+    height: 30px;
+    background-image: linear-gradient(to right, #FF69B4, white,#FF69B4);
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    box-shadow: 3px 3px 3px grey;
+}
+.x {
+    position: absolute;
+    width: 38px;
+    height: 33px;
+    bottom: 11px;
+    left: 8px;
+    background-image: linear-gradient(to right,#696969, #A9A9A9,#696969);
+}
+.v {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 0px;
+    background-image: linear-gradient(to right, #CD2C24 33.3%,#F2594B 33.3%, #F2836B 66.6%,#F2594B 66.6%, #F2594B 99.9%, #CD2C24 99.9%);
+    width: 38px;
+    height: 45vh;
+    box-shadow: 3px 3px 3px grey;
+}
+.n {
+    margin-top: 47px;
+    margin-left: 0px;
+    border-bottom: 51px solid rgb(238, 232, 170);
+    border-right: 14px solid rgba(0,0,0,0);
+    border-left: 14px solid rgba(0,0,0,0);
+    width: 10px;
+}
+.m {
+    position: absolute;
+    margin-left: 13px;
+    margin-top: -79px;
+    border-bottom: 35px solid black;
+    border-right: 6px solid rgba(0,0,0,0);
+    border-left: 6px solid rgba(0,0,0,0);
+}
+.q{
+    background: #466368;
+    background: linear-gradient( to right, pink 0%, pink 5%, grey 5%, grey 15%, yellow 15%, yellow 80%, rgb(238, 232, 170) 80%, rgb(238, 232, 170) 92%, black 92%, black 100%);
+    border-radius: 40px;
+    height: 40px;
+}
+.kletka {
+    height: 100vh;
+    background: repeating-linear-gradient(to top, rgba(70, 130, 180, 0.5) 0, 
+    rgba(70, 130, 180, 0.5) 1px, transparent 1px, transparent 20px), 
+    repeating-linear-gradient(to right, rgba(70, 130, 180, 0.5) 0, 
+    rgba(70, 130, 180, 0.5) 1px, transparent 1px, transparent 20px);
+}
