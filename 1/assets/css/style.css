@@ -1,0 +1,32 @@
+.row>div {
+    width: 10px;
+}
+
+.row {
+    clear: both;
+    width: 30px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.margin-right10 {
+    margin-right: 10px;
+}
+
+.margin-right-20 {
+    margin-right: -20px;
+}
+
+.margin-left20 {
+    margin-left: 20px;
+}
+
+.margin-top-18 {
+    margin-top: -18px;
+}
