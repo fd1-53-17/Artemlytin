@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>chess</title>
+    <link rel="stylesheet" href="assets/styles1.css">
+</head>
+
+<body>
+    <table border="3">
+        <tr height="20px">
+            <td width="20px" class="burgundy"></td>
+            <td class="turn" class="burgundy">A</td>
+            <td class="turn" class="burgundy">B</td>
+            <td class="turn" class="burgundy">C</td>
+            <td class="turn" class="burgundy">D</td>
+            <td class="turn" class="burgundy">E</td>
+            <td class="turn" class="burgundy">F</td>
+            <td class="turn" class="burgundy">G</td>
+            <td class="turn" class="burgundy">H</td>
+            <td width="20px" class="burgundy"></td>
+        </tr>
+        <tr>
+            <td class="burgundy">8</td>
+            <td class="beige">
+                <div class="castle_black"></div>
+            </td>
+            <td class="grey">
+                <div class="knight_black"></div>
+            </td>
+            <td class="beige">
+                <div class="bishop_black"></div>
+            </td>
+            <td class="grey">
+                <div class="king_black"></div>
+            </td>
+            <td class="beige">
+                <div class="queen_black"></div>
+            </td>
+            <td class="grey">
+                <div class="bishop_black"></div>
+            </td>
+            <td class="beige">
+                <div class="knight_black"></div>
+            </td>
+            <td class="grey">
+                <div class="castle_black"></div>
+            </td>
+            <td class="turn" class="burgundy">8</td>
+        </tr>
+        <tr>
+            <td class="burgundy">7</td>
+            <td class="grey">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="beige">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="grey">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="beige">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="grey">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="beige">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="grey">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="beige">
+                <div class="pawn_black"></div>
+            </td>
+            <td class="turn" class="burgundy">7</td>
+        </tr>
+        <tr>
+            <td class="burgundy">6</td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="turn" class="burgundy">6</td>
+        </tr>
+        <tr>
+            <td class="burgundy">5</td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="turn" class="burgundy">5</td>
+        </tr>
+        <tr>
+            <td class="burgundy">4</td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="turn" class="burgundy">4</td>
+        </tr>
+        <tr>
+            <td class="burgundy">3</td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="grey"></td>
+            <td class="beige"></td>
+            <td class="turn" class="burgundy">3</td>
+        </tr>
+        <tr>
+            <td class="burgundy">2</td>
+            <td class="beige">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="grey">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="beige">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="grey">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="beige">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="grey">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="beige">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="grey">
+                <div class="pawn_white"></div>
+            </td>
+            <td class="turn" class="burgundy">2</td>
+        </tr>
+        <tr>
+            <td class="burgundy">1</td>
+            <td class="grey">
+                <div class="castle_white"></div>
+            </td>
+            <td class="beige">
+                <div class="knight_white"></div>
+            </td>
+            <td class="grey">
+                <div class="bishop_white"></div>
+            </td>
+            <td class="beige">
+                <div class="king_white"></div>
+            </td>
+            <td class="grey">
+                <div class="queen_white"></div>
+            </td>
+            <td class="beige">
+                <div class="bishop_white"></div>
+            </td>
+            <td class="grey">
+                <div class="knight_white"></div>
+            </td>
+            <td class="beige">
+                <div class="castle_white"></div>
+            </td>
+            <td class="turn" class="burgundy">1</td>
+        </tr>
+        <tr height="20px">
+            <td class="burgundy"></td>
+            <td class="burgundy">A</td>
+            <td class="burgundy">B</td>
+            <td class="burgundy">C</td>
+            <td class="burgundy">D</td>
+            <td class="burgundy">E</td>
+            <td class="burgundy">F</td>
+            <td class="burgundy">G</td>
+            <td class="burgundy">H</td>
+            <td class="burgundy"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
