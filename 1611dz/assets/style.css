@@ -1,0 +1,83 @@
+.wrapper {
+    height: 98vh;
+    width: 98vw;
+}
+
+header {
+    height: 60px;
+    width: 1200px;
+
+
+}
+
+aside {
+    float: left;
+    height: 400px;
+    width: 500px;
+}
+
+main {
+    float: left;
+    height: 400px;
+    width: 700px;
+}
+
+footer {
+    float: left;
+    height: 60px;
+    width: 1200px;
+}
+
+.logo {
+    width: 600px;
+    height: 60px;
+    float: left;
+    background-color: skyblue;
+    color: darkblue;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.menu {
+    width: 200px;
+    height: 400px;
+    background-color: khaki;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-left: 2mm;
+}
+
+.text {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.img {
+    float: left;
+    background: url("https://raw.githubusercontent.com/antonkulakov-it/library/master/football.png") no-repeat;
+    background-size: 145vh;
+    width: 30vh;
+    height: 20vh;
+    margin: auto;
+    background-position: -40vh -20vh;
+}
+
+.foot {
+    float: left;
+    width: 600px;
+    height: 60px;
+    background-color: skyblue;
+    color: darkblue;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-right: 0;
+    text-align: center;
+}
