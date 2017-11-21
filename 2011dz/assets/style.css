@@ -21,3 +21,41 @@ div:nth-child(n+49):nth-child(-n+56):nth-child(even),
 div:nth-child(n+57):nth-child(-n+64):nth-child(odd) {
     background-color: darkslategrey;
 }
+
+div:nth-of-type(1):not(.chessTable)::after {
+    content: "A";
+}
+
+div:nth-of-type(2):after {
+    content: "B";
+}
+
+div:nth-of-type(3):after {
+    content: "C";
+}
+
+div:nth-of-type(4):after {
+    content: "D";
+}
+
+div:nth-of-type(5):after {
+    content: "E";
+}
+
+div:nth-of-type(6):after {
+    content: "F";
+}
+
+div:nth-of-type(7):after {
+    content: "G";
+}
+
+div:nth-of-type(8):after {
+    content: "H";
+}
+
+div:nth-of-type(n):after {
+    display: block;
+    margin-top: -40%;
+    margin-left: 40%;
+}
