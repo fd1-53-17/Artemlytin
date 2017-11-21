@@ -22,6 +22,61 @@ div:nth-child(n+57):nth-child(-n+64):nth-child(odd) {
     background-color: darkslategrey;
 }
 
+.chessTable>div:nth-of-type(n):not(:nth-of-type(n+2)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: -77% 0;
+    background-size: 75vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+2):not(:nth-of-type(n+3)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: -35% 0;
+    background-size: 75vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+3):not(:nth-of-type(n+4)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: -56% 0;
+    background-size: 75vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+4):not(:nth-of-type(n+5)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: -100% 0;
+    background-size: 69vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+5):not(:nth-of-type(n+6)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: 0 0;
+    background-size: 69vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+6):not(:nth-of-type(n+7)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: 61% 0;
+    background-size: 75vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+7):not(:nth-of-type(n+8)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: -35% 0;
+    background-size: 75vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+8):not(:nth-of-type(n+9)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: -77% 0;
+    background-size: 75vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+9):not(:nth-of-type(n+17)) {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-position: -18% 0;
+    background-size: 75vmin auto;
+}
+
+
 div:nth-of-type(1):not(.chessTable)::after {
     content: "A";
 }
