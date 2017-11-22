@@ -2,7 +2,8 @@
     margin: auto;
     width: 100vmin;
     height: 100vmin;
-    /*counter-reset: number;*/
+    /*padding: 10vmin;
+    counter-reset: cleft cright;*/
 }
 
 .chessTable>div {
@@ -12,12 +13,12 @@
     height: 11%;
 }
 
-/*.chessTable>div:nth-of-type(8n+1)::after {
-    counter-increment: number;
-    content: counter(number);
+/*.chessTable>div:nth-of-type(8n+1):after {
+    counter-increment: cleft;
+    content: counter(cleft);
     font-size: 2em;
     display: block;
-    margin-left: -2px;
+    margin-left: -24px;
 }*/
 
 div:nth-child(n):nth-child(-n+9):nth-child(even),
