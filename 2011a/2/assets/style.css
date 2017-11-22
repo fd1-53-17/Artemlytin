@@ -1,0 +1,14 @@
+li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+li:nth-of-type(n):not(:nth-of-type(n+5)) {
+    border-right: solid 1px black;
+    padding-right: 20px;
+}
+
+li:first-child:before {
+    content: "a";
+    font-family: "untitled-font-1", monospace;
+}
