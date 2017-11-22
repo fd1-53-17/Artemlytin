@@ -1,0 +1,13 @@
+.div {
+    background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/ramka.png') 0 0 no-repeat;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.div {
+    background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/ramka.png') -100 0 repeat-x;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+}
