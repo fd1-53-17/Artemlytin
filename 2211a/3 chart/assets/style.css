@@ -1,0 +1,9 @@
+.block1 {
+    margin: auto;
+    width: 496px;
+    height: 460px;
+    background-color: #F6F5F3;
+    outline: solid 1px #E0E0E0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
