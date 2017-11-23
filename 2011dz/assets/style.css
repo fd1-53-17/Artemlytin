@@ -1,25 +1,20 @@
 .chessTable {
+    position: relative;
     margin: auto;
-    width: 100vmin;
-    height: 100vmin;
-    /*padding: 10vmin;
-    counter-reset: cleft cright;*/
+    margin-top: 5%;
+    width: 80vmin;
+    height: 80vmin;
+    outline: solid 1px black;
+    counter-reset: div;
+
 }
 
 .chessTable>div {
-    display: inline-block;
-    outline: 1px solid black;
-    width: 11%;
-    height: 11%;
+    width: calc(80vmin / 8);
+    height: calc(80vmin / 8);
+    position: relative;
+    float: left;
 }
-
-/*.chessTable>div:nth-of-type(8n+1):after {
-    counter-increment: cleft;
-    content: counter(cleft);
-    font-size: 2em;
-    display: block;
-    margin-left: -24px;
-}*/
 
 div:nth-child(n):nth-child(-n+9):nth-child(even),
 div:nth-child(n+9):nth-child(-n+16):nth-child(odd),
@@ -32,95 +27,214 @@ div:nth-child(n+57):nth-child(-n+64):nth-child(odd) {
     background-color: darkslategrey;
 }
 
-.chessTable>div:nth-of-type(n):not(:nth-of-type(n+2)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: -77% 0;
-    background-size: 75vmin auto;
+.chessTable>div:nth-of-type(8n+1):before {
+    counter-increment: div;
+    content: counter(div);
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-left: -29%;
+    margin-top: 27%;
 }
 
-.chessTable>div:nth-of-type(n+2):not(:nth-of-type(n+3)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: -35% 0;
-    background-size: 75vmin auto;
+div:nth-child(n):nth-child(-n+64):not(.chessTable) {
+    background-image: url("https://raw.githubusercontent.com/fd1-53-17/Cherniavskiy/2011a/2011a/DZ/Chess/assets/chess.png");
+    background-size: 500%;
+    background-repeat: no-repeat;
 }
 
-.chessTable>div:nth-of-type(n+3):not(:nth-of-type(n+4)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: -56% 0;
-    background-size: 75vmin auto;
+div:nth-child(n+17):nth-child(-n+48):not(.chessTable) {
+    background-image: none;
 }
 
-.chessTable>div:nth-of-type(n+4):not(:nth-of-type(n+5)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: -100% 0;
-    background-size: 69vmin auto;
+div:nth-child(n+9):nth-child(-n+16),
+div:nth-child(n+49):nth-child(-n+56):hover {
+    background-position: 106% -21%;
 }
 
-.chessTable>div:nth-of-type(n+5):not(:nth-of-type(n+6)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: 0 0;
-    background-size: 69vmin auto;
+div:nth-child(n+9):nth-child(-n+16):hover,
+div:nth-child(n+49):nth-child(-n+56) {
+    background-position: 106% 129%;
 }
 
-.chessTable>div:nth-of-type(n+6):not(:nth-of-type(n+7)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: 61% 0;
-    background-size: 75vmin auto;
+div:nth-of-type(57):not(.chessTable),
+div:nth-of-type(64):not(.chessTable),
+div:nth-of-type(1):not(.chessTable):hover,
+div:nth-of-type(8):not(.chessTable):hover {
+    background-position: 40% 130%;
 }
 
-.chessTable>div:nth-of-type(n+7):not(:nth-of-type(n+8)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: -35% 0;
-    background-size: 75vmin auto;
+div:nth-of-type(57):not(.chessTable):hover,
+div:nth-of-type(64):not(.chessTable):hover,
+div:nth-of-type(1):not(.chessTable),
+div:nth-of-type(8):not(.chessTable) {
+    background-position: 40% -21%;
 }
 
-.chessTable>div:nth-of-type(n+8):not(:nth-of-type(n+9)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: -77% 0;
-    background-size: 75vmin auto;
+div:nth-of-type(2):not(.chessTable),
+div:nth-of-type(7):not(.chessTable) {
+    background-position: 85% -21%;
 }
 
-.chessTable>div:nth-of-type(n+9):not(:nth-of-type(n+17)) {
-    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
-    background-position: -18% 0;
-    background-size: 75vmin auto;
+div:nth-of-type(58):not(.chessTable),
+div:nth-of-type(63):not(.chessTable),
+div:nth-of-type(2):not(.chessTable):hover,
+div:nth-of-type(7):not(.chessTable):hover {
+    background-position: 85% 127%;
 }
 
+div:nth-of-type(58):not(.chessTable):hover,
+div:nth-of-type(63):not(.chessTable):hover {
+    background-position: 85% -21%;
+}
+
+div:nth-of-type(59):not(.chessTable),
+div:nth-of-type(62):not(.chessTable),
+div:nth-of-type(3):not(.chessTable):hover,
+div:nth-of-type(6):not(.chessTable):hover {
+    background-position: 62% 129%;
+}
+
+div:nth-of-type(59):not(.chessTable):hover,
+div:nth-of-type(62):not(.chessTable):hover,
+div:nth-of-type(3):not(.chessTable),
+div:nth-of-type(6):not(.chessTable) {
+    background-position: 62% -25%;
+}
+
+div:nth-of-type(60):not(.chessTable),
+div:nth-of-type(4):not(.chessTable):hover {
+    background-position: -4% 122%;
+}
+
+div:nth-of-type(60):not(.chessTable):hover,
+div:nth-of-type(4):not(.chessTable) {
+    background-position: -5% -26%;
+}
+
+div:nth-of-type(61):not(.chessTable),
+div:nth-of-type(5):not(.chessTable):hover {
+    background-position: 18% 129%;
+}
+
+div:nth-of-type(61):not(.chessTable):hover,
+div:nth-of-type(5):not(.chessTable) {
+    background-position: 18% -30%;
+}
+
+div:nth-of-type(8n-1):after {
+    display: block;
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 46%;
+}
+
+div:nth-child(n+1):nth-child(-n+8):not(.chessTable):after {
+    display: block;
+    position: absolute;
+}
 
 div:nth-of-type(1):not(.chessTable)::after {
     content: "A";
+    margin-top: -16vmin;
+    right: 4vmin;
 }
 
 div:nth-of-type(2):after {
     content: "B";
+    top: -3vmin;
+    right: 4vmin;
 }
 
 div:nth-of-type(3):after {
     content: "C";
+    top: -3vmin;
+    right: 4vmin;
 }
 
 div:nth-of-type(4):after {
     content: "D";
+    top: -3vmin;
+    right: 4vmin;
 }
 
 div:nth-of-type(5):after {
     content: "E";
+    top: -3vmin;
+    right: 4vmin;
 }
 
 div:nth-of-type(6):after {
     content: "F";
+    top: -3vmin;
+    right: 4vmin;
 }
 
 div:nth-of-type(7):after {
     content: "G";
+    top: 0.5vmin;
+    right: 4vmin;
 }
 
 div:nth-of-type(8):after {
     content: "H";
+    margin-top: -15.7vmin;
+    left: 4vmin;
 }
 
-div:nth-of-type(n):after {
+.chessTable>div:nth-of-type(8n+8):before {
+    counter-increment: div2;
+    content: counter(div);
     display: block;
-    margin-top: -40%;
-    margin-left: 40%;
+    height: 10vmin;
+    width: 10vmin;
+    margin-left: 120%;
+    margin-top: 27%;
+}
+
+div:nth-child(n+57):nth-child(-n+62):not(.chessTable):after {
+    display: block;
+    position: absolute;
+    top: 11vmin;
+    left: 4vmin;
+}
+
+div:nth-of-type(57):not(.chessTable):after {
+    content: "A";
+}
+
+div:nth-of-type(58):after {
+    content: "B";
+}
+
+div:nth-of-type(59):after {
+    content: "C";
+}
+
+div:nth-of-type(60):after {
+    content: "D";
+}
+
+div:nth-of-type(61):after {
+    content: "E";
+}
+
+div:nth-of-type(62):after {
+    content: "F";
+}
+
+div:nth-of-type(63):after {
+    content: "G";
+    display: block;
+    position: absolute;
+    top: 14.6vmin;
+    right: 4vmin;
+}
+
+div:nth-of-type(64):after {
+    content: "H";
+    display: block;
+    position: absolute;
+    top: 11vmin;
+    left: 4vmin;
 }
