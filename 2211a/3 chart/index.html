@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>3е задание</title>
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="block1">
+        <h1>Creating a chart</h1>
+        <p>To create a chart, we need to instantiate the chart class. To do this, we need to pass in the 2d context of where we want to draw the chart. Here's an example.</p>
+        <p>&emsp;&emsp; &lt;
+            <font color="#2486C7">canvas</font> id=
+            <font color="red">&quot;myChart&quot;</font>
+            <font color="#2C9EBC">width</font>=
+            <font color="red">&quot;400&quot;</font>
+            <font color="#2C9EBC">height</font>=
+            <font color="red">&quot;400&quot;</font>&gt;&lt;&frasl;
+            <font color="#2486C7">canvas</font>&gt;
+        </p>
+        <br/>
+        <p><i>&emsp;&emsp; &frasl; &frasl;&ensp;Get the context of the canvas element we want to select</i><br/> &emsp;&emsp;
+            <b>var</b> ctx =
+            <font color="#2587AF">document</font>.getElementById (
+            <font color="red">&quot;myChart&quot;</font>) .getContext (
+            <font color="red">&quot;2d&quot;</font>);<br/> &emsp;&emsp;
+            <b>var</b> myNewChart = <b>new</b> Chart (ctx). PolarArea (data) ;</p>
+        <p>We can also get the context of our canvas with jQuery. To do this, we need to get the DOM node out of the jQuery collection, and call the<br/> &emsp;getContext(&quot;2d&quot;) method on that.</p>
+        <p><i>&emsp;&emsp; &frasl; &frasl;&ensp;Get context with jQuery &ndash; using jQuery&rsquo;s .get() method.</i><br/> &emsp;&emsp;
+            <b>var</b> ctx = $(
+            <font color="red">&quot;#myChart&quot;</font>) .get(
+            <font color="blue">&Theta;</font>) .getContext (
+            <font color="red">&quot;2d&quot;</font>);<br/>
+            <i>&emsp;&emsp; &frasl; &frasl;&ensp;This will get the first returneo node in the jQuery collection</i><br/> &emsp;&emsp;
+            <b>var</b> myNewChart = <b>new</b> Chart (ctx) ;
+        </p>
+    </div>
+</body>
+
+</html>
