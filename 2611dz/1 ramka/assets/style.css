@@ -1,0 +1,47 @@
+.ramka {
+    background-color: white;
+    width: 60vmin;
+    height: 60vmin;
+    position: absolute;
+    box-shadow: 
+    inset 0 0 0 5px black, 
+    inset 0 0 0 8px white, 
+    inset 0 0 0 14px black, 
+    inset 0 0 0 22px white, 
+    inset 0 0 0 28px black, 
+    inset 0 0 0 31px white, 
+    inset 0 0 0 37px black;
+}
+
+.ltop,
+.rtop,
+.lbot,
+.rbot {
+    height: 20vmin;
+    width: 20vmin;
+    position: absolute;
+    background: url(https://github.com/antonkulakov-it/library/blob/master/ramka.png?raw=true);
+    background-repeat: no-repeat;
+}
+
+.ltop {
+    background-position: left top;
+    top: 0;
+}
+
+.rtop {
+    background-position: right top;
+    right: 0;
+    top: 0;
+}
+
+.lbot {
+    background-position: left bottom;
+    bottom: 0;
+}
+
+.rbot {
+    background-position: right bottom;
+    right: 0;
+    bottom: 0;
+}
