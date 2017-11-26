@@ -1,0 +1,21 @@
+ol {
+    width: 159px;
+    list-style-type: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #125195;
+}
+
+li {
+    border: 1px solid #d3d3d3;
+    padding: 8px;
+}
+
+ol>li:hover {
+    background: #125195;
+    color: #ffffff;
+    border: 1px solid #125195;
+}
