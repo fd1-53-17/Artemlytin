@@ -1,0 +1,47 @@
+html,
+body {
+    min-height: 350px;
+}
+
+body {
+    padding: 1em;
+    font-family: arial;
+}
+
+.flex {
+    display: flex;
+
+    background: #9ba5b3;
+    padding: 5px;
+}
+
+.flex-itm {
+    background: #2e5b61;
+    font-size: 2.5rem;
+    color: #eee;
+    margin: 5px;
+    padding: 15px;
+}
+
+
+#row:checked~.flex {
+    flex-direction: row;
+    min-width: 800px;
+}
+
+#row-reverse:checked~.flex {
+    flex-direction: row-reverse;
+    min-width: 640px;
+    max-width: 800px;
+}
+
+#column:checked~.flex {
+    flex-direction: column;
+    min-width: 320px;
+    max-width: 640px;
+}
+
+#column-reverse:checked~.flex {
+    flex-direction: column-reverse;
+    max-width: 320px;
+}

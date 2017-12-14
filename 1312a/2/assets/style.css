@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.row:nth-of-type(2)>div:nth-of-type(2) {
+    order: 3;
+}
+
+.row:nth-of-type(3)>div:nth-of-type(1) {
+    order: 2;
+}
+
+.row:nth-of-type(3)>div:nth-of-type(3) {
+    order: 2;
+}
+
+.row:nth-of-type(4)>div:nth-of-type(1) {
+    order: 2;
+}
+
+.row:nth-of-type(5)>div:nth-of-type(2) {
+    order: 3;
+}
+
+.row:nth-of-type(5)>div:nth-of-type(1) {
+    order: 3;
+}
+
+.row:nth-of-type(6)>div:nth-of-type(2) {
+    order: 1;
+}
+
+.row:nth-of-type(6)>div:nth-of-type(1) {
+    order: 3;
+}
