@@ -1,0 +1,43 @@
+div:nth-of-type(2) {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: none;
+}
+
+div:nth-of-type(3) {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 200px;
+    display: none;
+}
+
+div:nth-of-type(4) {
+
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+    display: none;
+}
+
+a>div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: yellow;
+}
+
+#kvadrat:target {
+    display: block;
+}
+
+#krug:target {
+    display: block;
+}
+
+#treugolnik:target {
+    display: block;
+}
