@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+.chessTable {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+div {
+    -ms-flex-preferred-size: 10%;
+    flex-basis: 10%;
+    -webkit-box-shadow: inset 0 0 0 1px;
+    box-shadow: inset 0 0 0 1px;
+}
+.chessTable>div:nth-of-type(20n+23),
+.chessTable>div:nth-of-type(20n+25),
+.chessTable>div:nth-of-type(20n+27),
+.chessTable>div:nth-of-type(20n+29),
+.chessTable>div:nth-of-type(20n+12),
+.chessTable>div:nth-of-type(20n+14),
+.chessTable>div:nth-of-type(20n+16),
+.chessTable>div:nth-of-type(20n+18) {
+    background-color: darkgrey;
+}
+.chessTable>div:nth-of-type(92),
+.chessTable>div:nth-of-type(94),
+.chessTable>div:nth-of-type(96),
+.chessTable>div:nth-of-type(98) {
+    background-color: white;
+}
